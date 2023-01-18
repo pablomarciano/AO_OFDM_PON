@@ -1,0 +1,168 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>RTW Report - RedDowOok_initialize.c</title>
+<script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script>
+</head>
+<body bgcolor="#eeeeee" text="#1122aa" onload="try {if (top) { if (top.rtwFileOnLoad) top.rtwFileOnLoad(window.document); else local_onload();}} catch(err) {};">
+<p>
+<table border="0" cellspacing="0" cellpadding="6" width="100%%" height="100%%"><tr><td width="100%%" valign="top" bgcolor="#ffffff">
+<h4>File: <a href="../RedDowOok_initialize.c" target="rtwreport_document_frame" id="linkToText_plain">RedDowOok_initialize.c</a></h4>
+<pre id="RTWcode">
+<a name="1"><font color="#888888 "><i>    1   </i></font></a><font color="#117755"><i>/*</i></font>
+<a name="2"><font color="#888888 "><i>    2   </i></font></a><font color="#117755"><I> * RedDowOok_initialize.c</i></font>
+<a name="3"><font color="#888888 "><i>    3   </i></font></a><font color="#117755"><I> *</i></font>
+<a name="4"><font color="#888888 "><i>    4   </i></font></a><font color="#117755"><I> * Code generation for function 'RedDowOok_initialize'</i></font>
+<a name="5"><font color="#888888 "><i>    5   </i></font></a><font color="#117755"><I> *</i></font>
+<a name="6"><font color="#888888 "><i>    6   </i></font></a><font color="#117755"><I> */</i></font>
+<a name="7"><font color="#888888 "><i>    7   </i></font></a>
+<a name="8"><font color="#888888 "><i>    8   </i></font></a><font color="#117755"><i>/* Include files */</i></font>
+<a name="9"><font color="#888888 "><i>    9   </i></font></a><font color="#992211">#</font><font color="#992211"><b>include</b></font> <font color="#992211">&quot;rt_nonfinite.h&quot;</font>
+<a name="10"><font color="#888888 "><i>   10   </i></font></a><font color="#992211">#</font><font color="#992211"><b>include</b></font> <font color="#992211">&quot;RedDowOok.h&quot;</font>
+<a name="11"><font color="#888888 "><i>   11   </i></font></a><font color="#992211">#</font><font color="#992211"><b>include</b></font> <font color="#992211">&quot;RedDowOok_initialize.h&quot;</font>
+<a name="12"><font color="#888888 "><i>   12   </i></font></a><font color="#992211">#</font><font color="#992211"><b>include</b></font> <font color="#992211">&quot;_coder_RedDowOok_mex.h&quot;</font>
+<a name="13"><font color="#888888 "><i>   13   </i></font></a><font color="#992211">#</font><font color="#992211"><b>include</b></font> <font color="#992211">&quot;RedDowOok_data.h&quot;</font>
+<a name="14"><font color="#888888 "><i>   14   </i></font></a>
+<a name="15"><font color="#888888 "><i>   15   </i></font></a><font color="#117755"><i>/* Function Declarations */</i></font>
+<a name="16"><font color="#888888 "><i>   16   </i></font></a><font color="#112266"><b>static</b></font> <font color="#112266"><b>void</b></font> <a href="#fcn_RedDowOok_once" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_RedDowOok_once');" target="_self"><font color="#1122aa">RedDowOok_once</font></a>(<font color="#112266"><b>void</b></font>);
+<a name="17"><font color="#888888 "><i>   17   </i></font></a>
+<a name="18"><font color="#888888 "><i>   18   </i></font></a><font color="#117755"><i>/* Function Definitions */</i></font>
+<a name="19"><font color="#888888 "><i>   19   </i></font></a><font color="#112266"><b>static</b></font> <font color="#112266"><b>void</b></font> <a name="fcn_RedDowOok_once">RedDowOok_once</a>(<font color="#112266"><b>void</b></font>)
+<a name="20"><font color="#888888 "><i>   20   </i></font></a><b>{</b>
+<a name="21"><font color="#888888 "><i>   21   </i></font></a>  int32_T cond_starts_0_0[2] = <b>{</b> 6031, 6043 <b>}</b>;
+<a name="22"><font color="#888888 "><i>   22   </i></font></a>
+<a name="23"><font color="#888888 "><i>   23   </i></font></a>  int32_T cond_ends_0_0[2] = <b>{</b> 6039, 6051 <b>}</b>;
+<a name="24"><font color="#888888 "><i>   24   </i></font></a>
+<a name="25"><font color="#888888 "><i>   25   </i></font></a>  int32_T postfix_exprs_0_0[3] = <b>{</b> 0, 1, -2 <b>}</b>;
+<a name="26"><font color="#888888 "><i>   26   </i></font></a>
+<a name="27"><font color="#888888 "><i>   27   </i></font></a>  int32_T cond_starts_0_1[2] = <b>{</b> 7145, 7158 <b>}</b>;
+<a name="28"><font color="#888888 "><i>   28   </i></font></a>
+<a name="29"><font color="#888888 "><i>   29   </i></font></a>  int32_T cond_ends_0_1[2] = <b>{</b> 7154, 7167 <b>}</b>;
+<a name="30"><font color="#888888 "><i>   30   </i></font></a>
+<a name="31"><font color="#888888 "><i>   31   </i></font></a>  int32_T postfix_exprs_0_1[3] = <b>{</b> 0, 1, -2 <b>}</b>;
+<a name="32"><font color="#888888 "><i>   32   </i></font></a>
+<a name="33"><font color="#888888 "><i>   33   </i></font></a>  int32_T cond_starts_0_2[1] = <b>{</b> 8652 <b>}</b>;
+<a name="34"><font color="#888888 "><i>   34   </i></font></a>
+<a name="35"><font color="#888888 "><i>   35   </i></font></a>  int32_T cond_ends_0_2[1] = <b>{</b> 8660 <b>}</b>;
+<a name="36"><font color="#888888 "><i>   36   </i></font></a>
+<a name="37"><font color="#888888 "><i>   37   </i></font></a>  int32_T postfix_exprs_0_2[2] = <b>{</b> 0, -1 <b>}</b>;
+<a name="38"><font color="#888888 "><i>   38   </i></font></a>
+<a name="39"><font color="#888888 "><i>   39   </i></font></a>  int32_T cond_starts_0_3[1] = <b>{</b> 8950 <b>}</b>;
+<a name="40"><font color="#888888 "><i>   40   </i></font></a>
+<a name="41"><font color="#888888 "><i>   41   </i></font></a>  int32_T cond_ends_0_3[1] = <b>{</b> 8959 <b>}</b>;
+<a name="42"><font color="#888888 "><i>   42   </i></font></a>
+<a name="43"><font color="#888888 "><i>   43   </i></font></a>  int32_T postfix_exprs_0_3[2] = <b>{</b> 0, -1 <b>}</b>;
+<a name="44"><font color="#888888 "><i>   44   </i></font></a>
+<a name="45"><font color="#888888 "><i>   45   </i></font></a>  <font color="#117755"><i>/* Allocate instance data */</i></font>
+<a name="46"><font color="#888888 "><i>   46   </i></font></a>  covrtAllocateInstanceData(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>);
+<a name="47"><font color="#888888 "><i>   47   </i></font></a>
+<a name="48"><font color="#888888 "><i>   48   </i></font></a>  <font color="#117755"><i>/* Initialize Coverage Information */</i></font>
+<a name="49"><font color="#888888 "><i>   49   </i></font></a>  covrtScriptInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>,
+<a name="50"><font color="#888888 "><i>   50   </i></font></a>                  <font color="#1122ff">&quot;C:\\Users\\Pablo\\Google Drive\\UFES_2018_1\\Alpha_LabPc_Test\\RedDowOok.m&quot;</font>,
+<a name="51"><font color="#888888 "><i>   51   </i></font></a>                  0, 1, 39, 18, 0, 0, 0, 2, 0, 6, 4);
+<a name="52"><font color="#888888 "><i>   52   </i></font></a>
+<a name="53"><font color="#888888 "><i>   53   </i></font></a>  <font color="#117755"><i>/* Initialize Function Information */</i></font>
+<a name="54"><font color="#888888 "><i>   54   </i></font></a>  covrtFcnInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 0, <font color="#1122ff">&quot;RedDowOok&quot;</font>, 0, -1, 14438);
+<a name="55"><font color="#888888 "><i>   55   </i></font></a>
+<a name="56"><font color="#888888 "><i>   56   </i></font></a>  <font color="#117755"><i>/* Initialize Basic Block Information */</i></font>
+<a name="57"><font color="#888888 "><i>   57   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 38, 14217, -1, 14421);
+<a name="58"><font color="#888888 "><i>   58   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 37, 14063, -1, 14121);
+<a name="59"><font color="#888888 "><i>   59   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 36, 13813, -1, 14017);
+<a name="60"><font color="#888888 "><i>   60   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 35, 13547, -1, 13794);
+<a name="61"><font color="#888888 "><i>   61   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 34, 12773, -1, 13418);
+<a name="62"><font color="#888888 "><i>   62   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 33, 12705, -1, 12722);
+<a name="63"><font color="#888888 "><i>   63   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 32, 12534, -1, 12551);
+<a name="64"><font color="#888888 "><i>   64   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 31, 12356, -1, 12373);
+<a name="65"><font color="#888888 "><i>   65   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 30, 12185, -1, 12202);
+<a name="66"><font color="#888888 "><i>   66   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 29, 11964, -1, 12006);
+<a name="67"><font color="#888888 "><i>   67   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 28, 11898, -1, 11914);
+<a name="68"><font color="#888888 "><i>   68   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 27, 11728, -1, 11744);
+<a name="69"><font color="#888888 "><i>   69   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 26, 11510, -1, 11551);
+<a name="70"><font color="#888888 "><i>   70   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 25, 9306, -1, 11050);
+<a name="71"><font color="#888888 "><i>   71   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 24, 9204, -1, 9223);
+<a name="72"><font color="#888888 "><i>   72   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 23, 9071, -1, 9100);
+<a name="73"><font color="#888888 "><i>   73   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 22, 8926, -1, 8944);
+<a name="74"><font color="#888888 "><i>   74   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 21, 8903, -1, 8920);
+<a name="75"><font color="#888888 "><i>   75   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 20, 8772, -1, 8799);
+<a name="76"><font color="#888888 "><i>   76   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 19, 8629, -1, 8646);
+<a name="77"><font color="#888888 "><i>   77   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 18, 8114, -1, 8165);
+<a name="78"><font color="#888888 "><i>   78   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 17, 7886, -1, 7899);
+<a name="79"><font color="#888888 "><i>   79   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 16, 7283, -1, 7595);
+<a name="80"><font color="#888888 "><i>   80   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 15, 7109, -1, 7140);
+<a name="81"><font color="#888888 "><i>   81   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 14, 6988, -1, 7034);
+<a name="82"><font color="#888888 "><i>   82   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 13, 6761, -1, 6773);
+<a name="83"><font color="#888888 "><i>   83   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 12, 6167, -1, 6473);
+<a name="84"><font color="#888888 "><i>   84   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 11, 5998, -1, 6026);
+<a name="85"><font color="#888888 "><i>   85   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 10, 5403, -1, 5707);
+<a name="86"><font color="#888888 "><i>   86   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 9, 5174, -1, 5195);
+<a name="87"><font color="#888888 "><i>   87   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 8, 4826, -1, 4959);
+<a name="88"><font color="#888888 "><i>   88   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 7, 4288, -1, 4587);
+<a name="89"><font color="#888888 "><i>   89   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 6, 4061, -1, 4080);
+<a name="90"><font color="#888888 "><i>   90   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 5, 3718, -1, 3846);
+<a name="91"><font color="#888888 "><i>   91   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 4, 2106, -1, 3305);
+<a name="92"><font color="#888888 "><i>   92   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 3, 1803, -1, 1884);
+<a name="93"><font color="#888888 "><i>   93   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 2, 1711, -1, 1733);
+<a name="94"><font color="#888888 "><i>   94   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 1, 1457, -1, 1459);
+<a name="95"><font color="#888888 "><i>   95   </i></font></a>  covrtBasicBlockInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 0, 223, -1, 1232);
+<a name="96"><font color="#888888 "><i>   96   </i></font></a>
+<a name="97"><font color="#888888 "><i>   97   </i></font></a>  <font color="#117755"><i>/* Initialize If Information */</i></font>
+<a name="98"><font color="#888888 "><i>   98   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 0, 1389, 1408, -1, 1620);
+<a name="99"><font color="#888888 "><i>   99   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 1, 1622, 1641, 1735, 2105);
+<a name="100"><font color="#888888 "><i>  100   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 2, 3631, 3643, 4183, 4729);
+<a name="101"><font color="#888888 "><i>  101   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 3, 3941, 3961, -1, 4178);
+<a name="102"><font color="#888888 "><i>  102   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 4, 4739, 4751, 5298, 5849);
+<a name="103"><font color="#888888 "><i>  103   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 5, 5054, 5074, -1, 5293);
+<a name="104"><font color="#888888 "><i>  104   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 6, 6028, 6051, 6475, 7108);
+<a name="105"><font color="#888888 "><i>  105   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 7, 6624, 6654, 6890, 7104);
+<a name="106"><font color="#888888 "><i>  106   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 8, 7142, 7167, 7597, 8239);
+<a name="107"><font color="#888888 "><i>  107   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 9, 7746, 7779, 8016, 8235);
+<a name="108"><font color="#888888 "><i>  108   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 10, 8648, 8660, 8894, 8925);
+<a name="109"><font color="#888888 "><i>  109   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 11, 8946, 8959, 9195, 9228);
+<a name="110"><font color="#888888 "><i>  110   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 12, 11611, 11632, 11786, 11959);
+<a name="111"><font color="#888888 "><i>  111   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 13, 12066, 12089, 12244, 12418);
+<a name="112"><font color="#888888 "><i>  112   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 14, 12423, 12459, 12593, 12767);
+<a name="113"><font color="#888888 "><i>  113   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 15, 13496, 13514, 14027, 14434);
+<a name="114"><font color="#888888 "><i>  114   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 16, 13519, 13538, 13800, 14026);
+<a name="115"><font color="#888888 "><i>  115   </i></font></a>  covrtIfInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 17, 14036, 14054, 14204, 14430);
+<a name="116"><font color="#888888 "><i>  116   </i></font></a>
+<a name="117"><font color="#888888 "><i>  117   </i></font></a>  <font color="#117755"><i>/* Initialize MCDC Information */</i></font>
+<a name="118"><font color="#888888 "><i>  118   </i></font></a>  covrtMcdcInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 0, 6031, 6051, 2, 0, cond_starts_0_0,
+<a name="119"><font color="#888888 "><i>  119   </i></font></a>                cond_ends_0_0, 3, postfix_exprs_0_0);
+<a name="120"><font color="#888888 "><i>  120   </i></font></a>  covrtMcdcInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 1, 7145, 7167, 2, 2, cond_starts_0_1,
+<a name="121"><font color="#888888 "><i>  121   </i></font></a>                cond_ends_0_1, 3, postfix_exprs_0_1);
+<a name="122"><font color="#888888 "><i>  122   </i></font></a>  covrtMcdcInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 2, 8651, 8660, 1, 4, cond_starts_0_2,
+<a name="123"><font color="#888888 "><i>  123   </i></font></a>                cond_ends_0_2, 2, postfix_exprs_0_2);
+<a name="124"><font color="#888888 "><i>  124   </i></font></a>  covrtMcdcInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 3, 8949, 8959, 1, 5, cond_starts_0_3,
+<a name="125"><font color="#888888 "><i>  125   </i></font></a>                cond_ends_0_3, 2, postfix_exprs_0_3);
+<a name="126"><font color="#888888 "><i>  126   </i></font></a>
+<a name="127"><font color="#888888 "><i>  127   </i></font></a>  <font color="#117755"><i>/* Initialize For Information */</i></font>
+<a name="128"><font color="#888888 "><i>  128   </i></font></a>  covrtForInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 0, 3549, 3572, 5853);
+<a name="129"><font color="#888888 "><i>  129   </i></font></a>  covrtForInit(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0, 1, 11162, 11192, 12771);
+<a name="130"><font color="#888888 "><i>  130   </i></font></a>
+<a name="131"><font color="#888888 "><i>  131   </i></font></a>  <font color="#117755"><i>/* Initialize While Information */</i></font>
+<a name="132"><font color="#888888 "><i>  132   </i></font></a>  <font color="#117755"><i>/* Initialize Switch Information */</i></font>
+<a name="133"><font color="#888888 "><i>  133   </i></font></a>  <font color="#117755"><i>/* Start callback for coverage engine */</i></font>
+<a name="134"><font color="#888888 "><i>  134   </i></font></a>  covrtScriptStart(&amp;<a href="RedDowOok_data_c.html#var_emlrtCoverageInstance" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtCoverageInstance');" target="_self"><font color="#1122aa">emlrtCoverageInstance</font></a>, 0U);
+<a name="135"><font color="#888888 "><i>  135   </i></font></a><b>}</b>
+<a name="136"><font color="#888888 "><i>  136   </i></font></a>
+<a name="137"><font color="#888888 "><i>  137   </i></font></a><font color="#112266"><b>void</b></font> <a name="fcn_RedDowOok_initialize">RedDowOok_initialize</a>(<font color="#112266"><b>void</b></font>)
+<a name="138"><font color="#888888 "><i>  138   </i></font></a><b>{</b>
+<a name="139"><font color="#888888 "><i>  139   </i></font></a>  emlrtStack st = <b>{</b> NULL, NULL, NULL <b>}</b>;
+<a name="140"><font color="#888888 "><i>  140   </i></font></a>
+<a name="141"><font color="#888888 "><i>  141   </i></font></a>  mexFunctionCreateRootTLS();
+<a name="142"><font color="#888888 "><i>  142   </i></font></a>  <a href="RedDowOok_data_c.html#var_emlrtBreakCheckR2012bFlagVar" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtBreakCheckR2012bFlagVar');" target="_self"><font color="#1122aa">emlrtBreakCheckR2012bFlagVar</font></a> = emlrtGetBreakCheckFlagAddressR2012b();
+<a name="143"><font color="#888888 "><i>  143   </i></font></a>  st.tls = <a href="RedDowOok_data_c.html#var_emlrtRootTLSGlobal" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtRootTLSGlobal');" target="_self"><font color="#1122aa">emlrtRootTLSGlobal</font></a>;
+<a name="144"><font color="#888888 "><i>  144   </i></font></a>  emlrtClearAllocCountR2012b(&amp;st, false, 0U, 0);
+<a name="145"><font color="#888888 "><i>  145   </i></font></a>  emlrtEnterRtStackR2012b(&amp;st);
+<a name="146"><font color="#888888 "><i>  146   </i></font></a>  <font color="#112266"><b>if</b></font> (emlrtFirstTimeR2012b(<a href="RedDowOok_data_c.html#var_emlrtRootTLSGlobal" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_emlrtRootTLSGlobal');" target="_self"><font color="#1122aa">emlrtRootTLSGlobal</font></a>)) <b>{</b>
+<a name="147"><font color="#888888 "><i>  147   </i></font></a>    <a href="#fcn_RedDowOok_once" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_RedDowOok_once');" target="_self"><font color="#1122aa">RedDowOok_once</font></a>();
+<a name="148"><font color="#888888 "><i>  148   </i></font></a>  <b>}</b>
+<a name="149"><font color="#888888 "><i>  149   </i></font></a><b>}</b>
+<a name="150"><font color="#888888 "><i>  150   </i></font></a>
+<a name="151"><font color="#888888 "><i>  151   </i></font></a><font color="#117755"><i>/* End of code generation (RedDowOok_initialize.c) */</i></font>
+<a name="152"><font color="#888888 "><i>  152   </i></font></a></pre>
+</td></tr></table>
+</p>
+</body>
+</html>

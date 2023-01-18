@@ -1,0 +1,13 @@
+LIBRARY RecDowDqpsk_mex.mexw64
+EXPORTS
+mexFunction
+emlrtMexFcnProperties
+RecDowDqpsk
+emxEnsureCapacity
+emxFree_boolean_T
+emxFree_real_T
+emxInit_boolean_T
+emxInit_real_T
+RecDowDqpsk_initialize
+RecDowDqpsk_terminate
+RecDowDqpsk_atexit

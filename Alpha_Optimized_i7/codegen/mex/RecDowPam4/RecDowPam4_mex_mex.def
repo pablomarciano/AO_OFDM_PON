@@ -1,0 +1,19 @@
+LIBRARY RecDowPam4_mex.mexw64
+EXPORTS
+mexFunction
+emlrtMexFcnProperties
+RecDowPam4
+emlrt_marshallOut
+emxEnsureCapacity
+emxFree_boolean_T
+emxFree_int32_T
+emxFree_real_T
+emxInit_boolean_T
+emxInit_boolean_T1
+emxInit_int32_T
+emxInit_int32_T1
+emxInit_real_T
+emxInit_real_T1
+RecDowPam4_initialize
+RecDowPam4_terminate
+RecDowPam4_atexit

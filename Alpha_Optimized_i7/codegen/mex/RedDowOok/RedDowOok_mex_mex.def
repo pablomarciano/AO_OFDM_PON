@@ -1,0 +1,16 @@
+LIBRARY RedDowOok_mex.mexw64
+EXPORTS
+mexFunction
+emlrtMexFcnProperties
+RedDowOok
+emxEnsureCapacity
+emxFree_boolean_T
+emxFree_int32_T
+emxFree_real_T
+emxInit_boolean_T
+emxInit_int32_T
+emxInit_real_T
+emxInit_real_T1
+RedDowOok_initialize
+RedDowOok_terminate
+RedDowOok_atexit

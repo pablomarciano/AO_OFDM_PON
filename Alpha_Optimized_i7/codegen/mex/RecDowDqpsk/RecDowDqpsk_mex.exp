@@ -1,0 +1,12 @@
+RecDowDqpsk_mex.mexw64
+RecDowDqpsk		RecDowDqpsk
+RecDowDqpsk_atexit		RecDowDqpsk_atexit
+RecDowDqpsk_initialize		RecDowDqpsk_initialize
+RecDowDqpsk_terminate		RecDowDqpsk_terminate
+emlrtMexFcnProperties		emlrtMexFcnProperties
+emxEnsureCapacity		emxEnsureCapacity
+emxFree_boolean_T		emxFree_boolean_T
+emxFree_real_T		emxFree_real_T
+emxInit_boolean_T		emxInit_boolean_T
+emxInit_real_T		emxInit_real_T
+mexFunction		mexFunction
